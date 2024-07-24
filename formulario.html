@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://use.typekit.net/pva1ine.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <style>
+        h1 {
+            background-image: url(imagenes/form.webp);
+        }
+
+        h3 {
+            font-family: "lft-etica-mono", sans-serif;
+            font-weight: 400;
+            line-height: normal;
+            font-size: 30px;
+        }
+
+        .tform {
+            display: inline-block;
+            width: 400px;
+        }
+
+        form {
+            width: 800px;
+            background-color: rgb(71, 56, 33, 0.2);
+            border-radius: 10px;
+            font-size: 20pt;
+            font-family: "lft-etica-mono", sans-serif;
+            font-weight: 400;
+            line-height: normal;
+            padding: 10px;
+            margin: 80px auto;
+
+        }
+
+        .campo {
+            width: 700px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        input,
+        select {
+            height: 25px;
+            background-color: transparent;
+            border-color: rgb(71, 56, 33);
+            font-size: 14pt;
+            border-radius: 10px;
+
+        }
+
+        select:hover,
+        input:hover {
+            background-color: #edece8;
+        }
+
+        .enviar {
+            text-align: center;
+
+        }
+
+        .enviar input {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: #edece8;
+            border-color: rgb(71, 56, 33);
+            border-radius: 20px;
+        }
+
+        .enviar input:hover {
+            background-color: rgb(71, 56, 33);
+            color: #edece8;
+        }
+
+        @media screen and (max-width:480px) {
+            h3 {
+                font-size: 17px;
+                margin: 20px;
+            }
+
+            .enviar input {
+                width: 150px;
+                height: 35px;
+            }
+
+            h1 {
+                background-image: url(imagenes/formMOBILE.png);
+            }
+
+
+            .tform {
+
+                width: 300px;
+                display: block;
+
+            }
+
+            input,
+            select {
+                display: block;
+
+                width: 300px;
+            }
+
+            form {
+                width: 400px;
+                margin: 30px auto;
+            }
+
+            .campo {
+                font-size: 15pt;
+                width: 330px;
+                margin: 10px;
+                padding: 5px;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Taylor Swift</h1>
+        <nav>
+            <a href="#navegacion" id="menu">Menu</a>
+
+            <ul id="navegacion">
+                <li><a href="index.html">Sobre taylor</a></li>
+                <li><a href="discografia.html">Discografía</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+                <li><a href="#" id="cerrar">Cerrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Formulario</h2>
+        <h3>Completá con tus datos y recibí las últimas novedades de Taylor</h3>
+        <form action="gracias.html" method="post" enctype="multipart/form-data">
+            <div class="campo"><span class="tform">Nombre: </span>
+                <input type="text" name="nombre" required autocomplete="off">
+            </div>
+            <div class="campo"><span class="tform">Apellido:</span>
+                <input type="text" name="apellido" autocomplete="off">
+            </div>
+            <div class="campo">
+                <span class="tform">Correo Eelectrónico:</span>
+                <input type="email" name="correo" required autocomplete="off">
+            </div>
+            <div class="campo">
+                <span class="tform">Edad:</span>
+                <input type="number" name="edad" required autocomplete="off">
+            </div>
+            <div class="campo"><span class="tform">¿Cuál es tu albúm favorito?</span>
+                <select name="album" required>
+                    <option value="" selected disabled>Seleccione uno</option>
+                    <option value="TTPD">The tortured poets department</option>
+                    <option value="fearless">Fearless</option>
+                    <option value="1989">1989</option>
+                    <option value="speak">Speak now</option>
+                    <option value="lover">lover</option>
+                    <option value="red">Red</option>
+                    <option value="rep">Reputation</option>
+                </select>
+            </div>
+            <div class="campo"><span class="tform">¿Te consideras swiftie?</span>
+                <label>Sí
+                    <input type="radio" required name="swiftie" value="si">
+                </label>
+                <label>Un poco
+                    <input type="radio" required name="swiftie" value="un_poco">
+                </label>
+            </div>
+            <div class="campo">
+                <span class="tform">Adjuntá una foto de tus <span lang="en">friendship bracelets</span></span>
+                <input type="file" name="imagen" accept="image/jpeg, image/png ">
+            </div>
+            <div class="enviar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <ul class="info">
+            <li>Aixa Saad</li>
+            <li>Maquetado y desarrollo web</li>
+            <li>Mabel García</li>
+            <li>Este sitio es una entrega para un TP de primer cuatrimestre de la Escuela Da Vinci 2024</li>
+        </ul>
+        <ul id="redes">
+            <li id="ig"><a href="https://www.instagram.com/taylorswift/" target="_blank">Instagram</a></li>
+            <li id="fb"><a href="https://www.facebook.com/TaylorSwift" target="_blank">Facebook</a></li>
+            <li id="tk"><a href="https://www.tiktok.com/@taylorswift" target="_blank">TikTok</a></li>
+            <li id="x"><a href="https://x.com/taylorswift13" target="_blank">X</a> </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

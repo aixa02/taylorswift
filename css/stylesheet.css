@@ -1,0 +1,716 @@
+body {
+    background-color: #edece8;
+    margin: 0%;
+}
+
+main {
+    display: block;
+    width: 1369px;
+    margin: auto;
+    color: rgb(71, 56, 33);
+}
+
+h1 {
+    font-size: 0px;
+    background-image: url(../imagenes/taylorprinc.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    top: 0px;
+    padding: 0%;
+    width: 1369px;
+    height: 405px;
+}
+
+#navegacion li {
+    display: inline-block;
+    text-align: center;
+    width: 310px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "lft-etica-mono", sans-serif;
+    line-height: 0.972;
+    text-transform: uppercase;
+}
+
+#navegacion a {
+    text-decoration: none;
+    color: rgb(71, 56, 33);
+}
+
+#navegacion a:hover {
+    text-decoration: underline;
+}
+
+.novedades {
+    width: 1369px;
+    padding: 18px 0px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    font-style: normal;
+    text-align: center;
+    background-color: rgba(71, 56, 33, 0.16);
+    width: 1369px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+}
+
+#novedad1 picture {
+    width: 550px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#novedad1 {
+    height: 560px;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.columnaizq {
+    display: inline-block;
+    vertical-align: middle;
+    width: 550px;
+    text-align: center;
+}
+
+.columnaizq h3 {
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 101%;
+    text-transform: uppercase;
+}
+
+.columnaizq h4 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "lft-etica-mono", sans-serif;
+    line-height: 0.972;
+}
+
+.boton a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "lft-etica-mono", sans-serif;
+    color: rgb(71, 56, 33);
+
+}
+
+.columnaizq a:hover {
+    background-color: rgba(71, 56, 33, 0.16);
+    padding: 15px;
+}
+
+#novedad2 h3 {
+    font-family: playfair-display, serif;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 0.825;
+    color: white;
+    padding: 30px 266px;
+    background-color: #24263e;
+    width: 550px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+#videoEras iframe {
+    width: 1042px;
+    height: 462px;
+    background-color: #24263e;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+.taylor {
+    font-family: "lft-etica-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 100px 0px;
+    height: 1520px;
+    width: 1369px;
+    background-image: url(../imagenes/fondoTAY.png);
+    background-repeat: no-repeat;
+}
+
+
+.taylor h3 {
+    font-size: 35px;
+    width: 500px;
+    display: block;
+    margin-left: 50px;
+}
+
+.taylor p {
+    font-size: 24px;
+    width: 700px;
+    line-height: 1.458;
+    height: 240px;
+    margin-bottom: 140px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.pop {
+    text-decoration: none;
+    font-family: "lft-etica-mono", sans-serif;
+    font-style: normal;
+    text-align: left;
+    line-height: 30pt;
+}
+
+.pop h3 {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.parrafoizq,
+.parrafoder {
+    display: inline-block;
+    padding-left: 145px;
+    padding-top: 145px;
+    vertical-align: top;
+}
+
+.parrafoizq ul,
+.parrafoder ul {
+    font-size: 24px;
+    font-weight: 400;
+    width: 430px;
+}
+
+.parrafoizq {
+    background-image: url(../imagenes/post1.png);
+    background-repeat: no-repeat;
+    width: 507px;
+    height: 741px;
+}
+
+.parrafoder {
+    background-image: url(../imagenes/post2.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 743px;
+}
+
+footer {
+    background-color: rgba(71, 56, 33, 0.15);
+    height: 270px;
+    font-family: "garamond-premier-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.info {
+    width: 760px;
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+#redes {
+
+    list-style: none;
+    width: 400px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+
+}
+
+#redes li {
+    display: inline-block;
+}
+
+#redes li a {
+    display: inline-block;
+    background-image: url(../imagenes/iconosredespng.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+
+}
+
+#redes #ig a {
+    background-position: 0 0;
+}
+
+#redes #ig a:hover {
+    background-position: 0 -50px;
+}
+
+#redes #fb a {
+    background-position: -50px 0;
+}
+
+#redes #fb a:hover {
+    background-position: -50px -50px;
+}
+
+#redes #tk a {
+    background-position: -100px 0;
+}
+
+#redes #tk a:hover {
+    background-position: -100px -50px;
+}
+
+#redes #x a {
+    background-position: -150px 0;
+}
+
+#redes #x a:hover {
+    background-position: -150px -50px;
+}
+
+#discografia {
+    background-image: url(../imagenes/discos.png);
+}
+
+#discos ul {
+    position: relative;
+    margin: 20px auto;
+    padding: 0%;
+    list-style-type: none;
+    width: 1000px;
+    height: 250px;
+
+}
+
+#discos ul li {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+#discos ul li a {
+    display: block;
+    font-size: 0%;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.ttpd {
+    background-image: url(../imagenes/TTPD.png);
+    background-repeat: no-repeat;
+    z-index: 6;
+    left: 0;
+}
+
+.mil {
+    background-image: url(../imagenes/1989.png);
+    background-repeat: no-repeat;
+    z-index: 5;
+    left: 150px;
+}
+
+.speak {
+    background-image: url(../imagenes/spaeknow.png);
+    background-repeat: no-repeat;
+    z-index: 4;
+    left: 300px;
+}
+
+.red {
+    background-image: url(../imagenes/red.png);
+    background-repeat: no-repeat;
+    z-index: 3;
+    left: 450px;
+}
+
+.mid {
+    background-image: url(../imagenes/midnights.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+    left: 600px;
+}
+
+.fearless {
+    background-image: url(../imagenes/feraless.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    left: 750px;
+}
+
+.ttpd:hover,
+.mil:hover,
+.speak:hover,
+.red:hover,
+.mid:hover,
+.fearless:hover {
+    z-index: 6;
+    box-shadow: 10px 10px 20px black;
+}
+
+
+.album {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "lft-etica-mono", sans-serif;
+    line-height: normal;
+    color: rgb(71, 56, 33);
+    background-color: rgba(71, 56, 33, 0.058);
+    border-radius: 10px;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.izq {
+    display: inline-block;
+    width: 700px;
+}
+
+.izq h2 {
+    width: 1170px;
+    padding: 5px;
+    margin: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.izq p {
+    margin: 5px 25px 5px 25px;
+
+}
+
+.izq iframe {
+    margin: 5px 25px 5px 25px;
+    padding: 0%;
+    background-color: transparent;
+    border: 0;
+    box-shadow: 6px 6px 10px grey;
+    width: 650px;
+    height: 352px;
+}
+
+ol {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin-top: 70px;
+}
+
+@media screen and (min-width:481px) {
+    #menu {
+        display: none;
+    }
+
+    #cerrar {
+        display: none;
+    }
+
+    #fotos {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:480px) {
+    main {
+        width: 480px;
+
+    }
+
+    #menu {
+        background-image: url(../imagenes/menu.png);
+
+        background-repeat: no-repeat;
+        font-size: 0px;
+        width: 32px;
+        height: 28px;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    #navegacion li {
+        font-size: 18pt;
+        background-color: rgb(71, 56, 33, 0.2);
+        text-align: left;
+    }
+
+    #navegacion {
+        display: none;
+        width: 200px;
+    }
+
+    #navegacion:target {
+        display: block;
+    }
+
+    #cerrar {
+        color: rgb(71, 56, 33);
+    }
+
+    h1 {
+        width: 480px;
+        height: 170px;
+        background-repeat: no-repeat;
+    }
+
+    h2 {
+        width: 480px;
+        font-size: 18pt;
+
+
+    }
+
+    footer {
+        width: 480px;
+        font-size: 20px;
+        height: 250px;
+    }
+
+    .info {
+        width: 400px;
+        margin: 10px;
+        padding-left: 10px;
+    }
+
+    #redes {
+        width: 400px;
+    }
+
+
+    #princ {
+        background-image: url(../imagenes/taylorprincMOBILE.png);
+    }
+
+    .novedades {
+        width: 480px;
+        padding: 8px 0px;
+    }
+
+    #novedad1 {
+        width: 300px;
+        margin: auto;
+        height: auto;
+        padding: 25px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    #novedad1 picture {
+        width: 183px;
+        display: block;
+        margin: auto;
+    }
+
+    #novedad1 picture img {
+        width: 100%;
+    }
+
+    .columnaizq {
+        display: block;
+        width: 300px;
+    }
+
+    .columnaizq h3 {
+        font-size: 22pt;
+    }
+
+    .columnaizq h4 {
+        font-size: 17pt;
+    }
+
+    .columnaizq a {
+        border: #473821 solid 1px;
+        padding: 5px;
+        font-size: 18pt;
+    }
+
+    .columnaizq a:hover {
+        display: none;
+    }
+
+    #novedad2 {
+        margin-top: 20px;
+    }
+
+    #novedad2 h3 {
+        width: 280px;
+        font-size: 35px;
+        padding: 15px 70px;
+    }
+
+    #videoEras iframe {
+        padding: 15px 10px;
+        width: 400px;
+        height: 200px;
+
+    }
+
+    .taylor {
+        background-image: none;
+        width: 400px;
+        height: auto;
+        padding: 0px;
+        margin: 50px auto;
+
+    }
+
+    #fotos {
+        border-radius: 15px;
+        margin: 30px auto;
+    }
+
+    .taylor h3 {
+        font-size: 20pt;
+        width: 400px;
+        margin: 20px auto;
+
+    }
+
+    .taylor p {
+        font-size: 17pt;
+        width: 400px;
+        height: auto;
+        margin: 20px auto;
+
+    }
+
+    .pop {
+        margin: 50px auto;
+
+    }
+
+    .pop h3 {
+        font-size: 18pt;
+
+        width: 400px;
+        margin: auto;
+    }
+
+    .pop ul {
+        font-size: 16pt;
+        line-height: 25pt;
+    }
+
+    .parrafoder,
+    .parrafoizq {
+        display: block;
+        width: 480px;
+        height: 500px;
+        padding-top: 60px;
+        padding-left: 20px;
+        background-image: url(../imagenes/postitMOBILE.png);
+        background-repeat: no-repeat;
+
+    }
+
+    .parrafoder ul,
+    .parrafoizq ul {
+        width: 300px;
+        margin: auto;
+    }
+
+    #discografia {
+        background-image: url(../imagenes/discosMOBILE.png);
+    }
+
+    .album {
+        font-size: 16pt;
+        width: 450px;
+        margin: 25px auto;
+    }
+
+    .izq {
+        display: block;
+        width: 450px;
+        padding: 5px 0px;
+    }
+
+    .izq h2 {
+        width: 420px;
+        margin: 20px auto;
+    }
+
+    .izq p {
+        width: 430px;
+        margin: auto;
+    }
+
+    .izq iframe {
+        width: 420px;
+        margin: 30px 15px 30px 15px;
+        box-shadow: none;
+    }
+
+    ol {
+        display: block;
+        margin: 15px;
+        padding-bottom: 20px;
+    }
+
+    #discos {
+        overflow: auto;
+        
+    }
+
+    #discos ul {
+        height: 183px;
+        width: auto;
+    }
+
+    #discos ul li {
+        width: 183px;
+        height: 183px;
+    }
+    
+    .ttpd {
+        background-image: url(../imagenes/TTPDmobile.png);
+        z-index: 0;
+    }
+
+    .mil {
+        background-image: url(../imagenes/1989mobile.png);
+        z-index: 0;
+        left: 190px;
+    }
+    .speak{
+        background-image: url(../imagenes/spaeknowmobile.png);
+        z-index: 0;
+        left: 380px;
+    }
+    .red{ 
+        background-image:url(../imagenes/redmobile.png);
+        z-index: 0;
+        left: 570px;
+    }
+    .mid{
+        background-image: url(../imagenes/midnightsmobile.png);
+    z-index: 0;
+    left: 760px;
+    }
+    .fearless{
+        background-image: url(../imagenes/feralessmobile.png);
+        z-index: 0;
+        left: 950px;
+    }
+
+
+
+
+
+
+}
